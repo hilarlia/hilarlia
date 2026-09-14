@@ -1,40 +1,79 @@
-<!doctype html>                                                              
-   <html>                                                                       
-     <head>                                                                     
-       <meta charset="utf-8" />                                                 
-       <meta name="viewport" content="width=device-width,initial-scale=1" />    
-       <title>Ufuk Keskin - Portfolio</title>                                     
-       <style>                                                                  
-         body { font-family: Arial, sans-serif; margin: 40px; max-width: 800px; 
- }                                                                              
-         h1 { margin-bottom: 0; }                                               
-         .muted { color: #666; margin-top: 4px; }                               
-         section { margin-top: 28px; }                                          
-         a { color: #0b5fff; text-decoration: none; }                           
-         a:hover { text-decoration: underline; }                                
-       </style>                                                                 
-     </head>                                                                    
-     <body>                                                                     
-       <h1>Ufuk Keskin</h1>                                                       
-       <p class="muted">16S893 – AI for Engineering Research</p>                
-                                                                                
-       <section>                                                                
-         <h2>About</h2>                                                         
-         <p>Hi all, in this portfolio I share my progress on how I use LLMs to advance my research on quantum information theory in the class 16.S893 I will be taking at MIT.</p>            
-       </section>                                                               
-                                                                                
-       <section>                                                                
-         <h2>Project</h2>                                                      
-         <ul>                                                                   
-           <li>The project involves theoretical and algorithmic analysis for quantum sequential decision-making problems, which involve two parts: (i) finding lower and upper bounds on the complexity of approximately optimal quantum decision-making algorithms; and (ii) proposing quantum algorithms with optimal complexity.</li>                            
-         </ul>                                                                  
-       </section>                                                               
-                                                                                
-       <section>                                                                
-         <h2>Contact</h2>                                                       
-         <p>Email: ufukkesk@mit.edu</p>                                   
-         <p>GitHub: https://github.com/hilarlia<a                                                          
- href="https://github.com/hilarliaE">hilarlia</a></p>                    
-       </section>                                                               
-     </body>                                                                    
-   </html>   
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ufuk Keskin | About Me</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div>
+          <h1 class="site-title">Ufuk Keskin</h1>
+          <p class="site-subtitle">16.S893 — AI for Engineering Research</p>
+        </div>
+        <nav aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a class="active" href="index.html">About Me</a></li>
+            <li><a href="project.html">My Project</a></li>
+            <li><a href="sofar.html">So Far</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Building ideas at the intersection of AI and quantum information.</h2>
+        <p>
+          A simple academic portfolio with updates on my research direction,
+          project progress, and reflections through the semester.
+        </p>
+      </div>
+    </section>
+
+    <main class="main">
+      <section class="card">
+        <h3>About Me</h3>
+        <p>
+          Hi! I'm Ufuk Keskin. I am interested in how modern LLMs can accelerate
+          theoretical work in quantum information science. In 16.S893, I am
+          experimenting with AI-assisted workflows for research ideation,
+          literature synthesis, and technical writing.
+        </p>
+        <p>
+          My long-term goal is to design practical methods that combine rigorous
+          mathematical reasoning with computational tools.
+        </p>
+      </section>
+
+      <section class="grid-2">
+        <article class="card">
+          <h3>Current Focus</h3>
+          <ul>
+            <li>LLM-supported theorem exploration.</li>
+            <li>Structured note-taking for fast iteration.</li>
+            <li>Reproducible research logs for class milestones.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:ufukkesk@mit.edu">ufukkesk@mit.edu</a></p>
+          <p>
+            GitHub:
+            <a href="https://github.com/hilarlia" target="_blank" rel="noopener"
+              >github.com/hilarlia</a
+            >
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">© 2026 Ufuk Keskin</div>
+    </footer>
+  </body>
+</html>

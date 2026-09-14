@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 3840 2160" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized Stata Center and Hockfield Court</title>
+  <desc id="desc">A high-resolution illustration inspired by architectural collage styles, depicting the MIT Stata Center with an abstract lawn representing Hockfield Court and Aesop's Fables II.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d9e7f1"/>
+      <stop offset="100%" stop-color="#f4f7f4"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#7ea776"/>
+      <stop offset="100%" stop-color="#95b88a"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b8b3a7"/>
+      <stop offset="100%" stop-color="#8d877d"/>
+    </linearGradient>
+    <linearGradient id="brick" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c88e66"/>
+      <stop offset="100%" stop-color="#9e6340"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="3840" height="2160" fill="url(#sky)"/>
+
+  <path d="M0 1330 C620 1180 1120 1290 1760 1240 C2480 1182 3030 1210 3840 1130 L3840 2160 L0 2160 Z" fill="url(#grass)"/>
+
+  <g opacity="0.16" fill="#4f6e4f">
+    <circle cx="420" cy="1490" r="180"/>
+    <circle cx="980" cy="1470" r="210"/>
+    <circle cx="1520" cy="1530" r="190"/>
+    <circle cx="2130" cy="1460" r="230"/>
+    <circle cx="2860" cy="1510" r="250"/>
+    <circle cx="3420" cy="1450" r="170"/>
+  </g>
+
+  <g transform="translate(370 620)">
+    <polygon points="0,600 520,360 610,1060 30,1060" fill="url(#metal)"/>
+    <polygon points="460,320 840,220 980,1050 600,1070" fill="#d6d2c8"/>
+    <polygon points="950,380 1450,210 1660,1050 1120,1060" fill="url(#brick)"/>
+    <polygon points="1500,270 1880,360 1840,1080 1400,1050" fill="#b9b2a5"/>
+    <polygon points="1860,420 2280,320 2350,1060 1860,1080" fill="#c98258"/>
+    <polygon points="2240,280 2610,260 2740,1060 2360,1070" fill="#a7a295"/>
+
+    <g fill="#f3eee5" opacity="0.9">
+      <rect x="110" y="700" width="75" height="68"/>
+      <rect x="230" y="650" width="65" height="64"/>
+      <rect x="310" y="770" width="80" height="70"/>
+      <rect x="560" y="640" width="70" height="64"/>
+      <rect x="700" y="760" width="78" height="72"/>
+      <rect x="1070" y="650" width="74" height="70"/>
+      <rect x="1250" y="760" width="70" height="66"/>
+      <rect x="1530" y="690" width="80" height="72"/>
+      <rect x="1720" y="790" width="72" height="66"/>
+      <rect x="1940" y="700" width="74" height="70"/>
+      <rect x="2140" y="820" width="72" height="64"/>
+      <rect x="2380" y="710" width="78" height="70"/>
+      <rect x="2520" y="860" width="68" height="64"/>
+    </g>
+
+    <g stroke="#625d54" stroke-width="7" opacity="0.5">
+      <line x1="100" y1="770" x2="520" y2="590"/>
+      <line x1="600" y1="550" x2="970" y2="440"/>
+      <line x1="1120" y1="480" x2="1590" y2="370"/>
+      <line x1="1550" y1="420" x2="1880" y2="520"/>
+      <line x1="1860" y1="560" x2="2320" y2="460"/>
+      <line x1="2290" y1="500" x2="2620" y2="470"/>
+    </g>
+  </g>
+
+  <g transform="translate(1170 1540)">
+    <ellipse cx="640" cy="175" rx="690" ry="190" fill="#6f9a67" opacity="0.55"/>
+    <path d="M60 180 C250 60, 430 90, 550 170 C660 230, 850 240, 1000 140 C1130 60, 1260 75, 1400 160" fill="none" stroke="#e6ede2" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="620" cy="152" r="28" fill="#f3f3e8"/>
+    <rect x="604" y="82" width="32" height="82" fill="#f3f3e8"/>
+    <path d="M612 80 Q621 42 658 38 Q646 72 630 90 Z" fill="#f3f3e8"/>
+    <text x="640" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#edf3e9">Hockfield Court · Aesop's Fables II</text>
+  </g>
+</svg>
