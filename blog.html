@@ -1,68 +1,72 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Ufuk Keskin | Blog</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="header-inner">
-        <div>
-          <h1 class="site-title">Ufuk Keskin</h1>
-          <p class="site-subtitle">16.S893 — AI for Engineering Research</p>
-        </div>
-        <nav aria-label="Main navigation">
-          <ul class="nav-list">
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="project.html">My Project</a></li>
-            <li><a href="sofar.html">So Far</a></li>
-            <li><a class="active" href="blog.html">Blog</a></li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informal notes and reflections from Ufuk Keskin, on research and everything beyond it.">
+  <title>Ufuk Keskin | Blog</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-title" href="index.html">Ufuk Keskin</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="project.html">My Project</a></li>
+          <li><a href="sofar.html">So Far</a></li>
+          <li><a href="blog.html" aria-current="page">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container page-main">
+    <div class="page-layout">
+      <aside class="page-aside" aria-label="Related page">
+        <img src="assets/coffee.svg" alt="" width="300" height="250">
+        <p>Beyond the formal write-up<br>A little room to think aloud<br><a href="sofar.html">The research notebook →</a></p>
+      </aside>
+      <div class="prose">
+        <header class="page-heading">
+          <h1>Blog</h1>
+          <p class="lead">Notes from in and outside the notebook.</p>
+          <p>Casual thoughts about research, things to read, campus life, or anything else. Not everything needs to be a project update.</p>
+        </header>
+        <section class="blog-post" aria-labelledby="first-post">
+          <p class="meta">No posts yet</p>
+          <h2 id="first-post">A space for the less formal thoughts</h2>
+          <p>The first post will appear here. For the research itself, visit <a href="project.html">My Project</a>; for the steps along the way, visit <a href="sofar.html">So Far</a>.</p>
+        </section>
+
+        <!--
+          TO PUBLISH A POST:
+          Remove the empty-state section above. Copy this article out of the comment,
+          replace its title, date, id, and text, and put your newest post first.
+          Use a real date in YYYY-MM-DD form for datetime (the value below is an example).
+
+          <article class="blog-post" id="my-first-note">
+            <p class="meta"><time datetime="2026-09-14">September 14, 2026</time> · Notes</p>
+            <h2><a class="permalink" href="#my-first-note">Your post title</a></h2>
+            <p>Your own thoughts go here.</p>
+          </article>
+        -->
       </div>
-    </header>
+    </div>
+  </main>
 
-    <section class="hero">
-      <div class="hero-content">
-        <h2>Blog</h2>
-        <p>Casual notes, ideas, and comments on research and beyond.</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-links">
+        <span>16.S893 · AI for Engineering Research</span>
+        <a href="mailto:ufukkesk@mit.edu">Email</a>
+        <a href="https://github.com/hilarlia">GitHub</a>
       </div>
-    </section>
-
-    <main class="main">
-      <section class="card">
-        <article class="blog-post">
-          <h3>September 14, 2026 — First impressions</h3>
-          <p>
-            I like how fast ideas can move when I use AI as a thought partner,
-            but I also noticed it is easy to lose rigor. My new rule: every AI
-            insight must be followed by a check I can explain on paper.
-          </p>
-        </article>
-
-        <article class="blog-post">
-          <h3>September 11, 2026 — Tiny wins</h3>
-          <p>
-            Today was mostly reading and cleanup, but even that helped.
-            Reorganizing notes made hidden connections between papers much more
-            obvious.
-          </p>
-        </article>
-
-        <article class="blog-post">
-          <h3>September 8, 2026 — Non-research thought</h3>
-          <p>
-            Walked around campus after a long coding session. Short walks are
-            strangely good for debugging both code and ideas.
-          </p>
-        </article>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">© 2026 Ufuk Keskin</div>
-    </footer>
-  </body>
+      <p>© 2026 Ufuk Keskin</p>
+    </div>
+  </footer>
+</body>
 </html>
