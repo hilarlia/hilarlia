@@ -2,12 +2,12 @@
 """Rebuild the original SVG artwork (Python standard library only).
 
 This is an illustrated interpretation, not a measured architectural elevation.
-Photo references and artwork notes are documented in assets/README.md.
+Photo references and artwork notes are documented in docs/assets/README.md.
 """
 from pathlib import Path
 import random
 
-OUT = Path(__file__).resolve().parents[1] / "assets"
+OUT = Path(__file__).resolve().parents[1] / "docs" / "assets"
 INK = "#182332"
 CREAM = "#ffe4b8"
 BLUE = "#2449ae"
@@ -398,4 +398,4 @@ def spots():
 if __name__ == '__main__':
     campus()
     spots()
-    print('Rebuilt assets/stata-center.svg and three spot illustrations.')
+    print('Rebuilt docs/assets/stata-center.svg and three spot illustrations.')

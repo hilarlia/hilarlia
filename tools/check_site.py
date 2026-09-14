@@ -8,7 +8,7 @@ import struct
 import unittest
 import xml.etree.ElementTree as ET
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[1] / 'docs'
 PAGES = ['index.html', 'project.html', 'sofar.html', 'blog.html']
 LABELS = ['About Me', 'My Project', 'So Far', 'Blog']
 
@@ -133,6 +133,8 @@ class SiteChecks(unittest.TestCase):
             self.assertNotIn('campus-breeze', (ROOT / name).read_text())
 
     def test_plain_pages_deployment(self):
+        self.assertEqual(ROOT.name, 'docs')
+        self.assertEqual({p.name for p in ROOT.glob('*.html')}, set(PAGES))
         self.assertTrue((ROOT / '.nojekyll').is_file())
         for name in PAGES:
             self.assertNotIn('<script', (ROOT / name).read_text().lower())
