@@ -20,7 +20,7 @@ portfolio/
 └── README.md
 ```
 
-**Migration in progress:** `docs/` is ready to become the publishing folder. The previous root-level website files are temporarily retained so the existing site stays available until GitHub Pages is switched to **main → /docs**. After that setting is confirmed, remove the old root-level HTML, `style.css`, `assets/`, and `.nojekyll`. Make new website edits in `docs/`, not in those temporary copies.
+All website files live in `docs/`. GitHub Pages publishes **main → /docs**, so the website URL remains unchanged. Make website edits in `docs/`; there are no duplicate HTML, CSS, or asset files at the repository root.
 
 ## Preview before publishing
 

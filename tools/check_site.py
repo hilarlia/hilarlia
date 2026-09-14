@@ -132,6 +132,10 @@ class SiteChecks(unittest.TestCase):
         for name in PAGES[1:]:
             self.assertNotIn('campus-breeze', (ROOT / name).read_text())
 
+    def test_no_legacy_root_site_copies(self):
+        for name in [*PAGES, 'style.css', 'assets', '.nojekyll']:
+            self.assertFalse((ROOT.parent / name).exists(), f'Website files belong in docs/: {name}')
+
     def test_plain_pages_deployment(self):
         self.assertEqual(ROOT.name, 'docs')
         self.assertEqual({p.name for p in ROOT.glob('*.html')}, set(PAGES))
